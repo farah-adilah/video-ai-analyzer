@@ -1,0 +1,1 @@
+cargo:rustc-link-search=native=D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\build\webview2-com-sys-8174b26040d9d700\out\x64

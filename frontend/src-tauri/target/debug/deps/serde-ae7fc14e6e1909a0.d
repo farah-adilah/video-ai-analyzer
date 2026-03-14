@@ -1,0 +1,14 @@
+D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\deps\serde-ae7fc14e6e1909a0.d: C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\build\serde-9a759df03ce1f899\out/private.rs
+
+D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\deps\libserde-ae7fc14e6e1909a0.rlib: C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\build\serde-9a759df03ce1f899\out/private.rs
+
+D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\deps\libserde-ae7fc14e6e1909a0.rmeta: C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\build\serde-9a759df03ce1f899\out/private.rs
+
+C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+D:\Users\User\ProjectVSCode\video-analyzer\frontend\src-tauri\target\debug\build\serde-9a759df03ce1f899\out/private.rs:
+
+# env-dep:OUT_DIR=D:\\Users\\User\\ProjectVSCode\\video-analyzer\\frontend\\src-tauri\\target\\debug\\build\\serde-9a759df03ce1f899\\out
