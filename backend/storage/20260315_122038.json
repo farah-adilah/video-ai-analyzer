@@ -1,0 +1,39 @@
+{
+  "video_name": "sample-5s.mp4",
+  "video_path": "C:\\Users\\User\\AppData\\Local\\Temp\\tmp8fo6nfl7.mp4",
+  "timestamp": "2026-03-15T12:18:54.712962",
+  "status": "complete",
+  "video_info": {
+    "fps": 30.0,
+    "frame_count": 171,
+    "width": 1920,
+    "height": 1080,
+    "duration": 5.7
+  },
+  "transcription": {
+    "agent": "TranscriptionAgent",
+    "transcription": "",
+    "language": "en",
+    "error": null
+  },
+  "vision": {
+    "agent": "VisionAgent",
+    "total_frames": 2,
+    "analyzed_frames": 2,
+    "captions": [
+      {
+        "frame": 1,
+        "caption": "a park with a lot of trees and a few cars",
+        "timestamp": 0
+      },
+      {
+        "frame": 2,
+        "caption": "a park with a bench and a tree",
+        "timestamp": 5
+      }
+    ],
+    "summary": "The video contains 2 key scenes. a park with a lot of trees and a few cars a park with a bench and a tree"
+  },
+  "ai_summary": "A brief visual analysis of a park scene featuring a tree, bench, and a few cars at the beginning and a bench, tree, and park with a few cars at the end of the video. The summary highlights the key elements of the scene and provides a quick overview of the video.",
+  "analysis_id": "20260315_122038"
+}

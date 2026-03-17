@@ -12,9 +12,10 @@ function App() {
   const [currentVideo, setCurrentVideo] = useState(null);
   const [analysisResults, setAnalysisResults] = useState(null);
   const [reportFormat, setReportFormat] = useState('pptx');
-  const [conversationId, setConversationId] = useState(
-    () => new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5)
-  );
+  // const [conversationId, setConversationId] = useState(
+  //   () => new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5)
+  // );
+  const [conversationId, setConversationId] = useState(null);
   const [chatInput, setChatInput] = useState('');
 
   // Load conversation history on mount
@@ -92,6 +93,8 @@ function App() {
         if (update.stage === 'complete' && update.result) {
           setMessages(prev => prev.filter(msg => msg.type !== 'progress'));
           setAnalysisResults(update.result);
+          const newConversationId = update.result.analysis_id;
+          setConversationId(newConversationId);
 
           const contextUpdate = {
             current_video: file.name,
@@ -106,16 +109,17 @@ function App() {
           // };
           
           // Update via chat to save context
-          try {
-            const { invoke } = await import('@tauri-apps/api/core');
-            await invoke('send_chat_message', {
-              message: `__CONTEXT_UPDATE__:${JSON.stringify(contextUpdate)}`,
-              conversationId: conversationId,
-              contextJson: JSON.stringify(contextUpdate)
-            });
-          } catch (error) {
-            console.log("Context update failed:", error);
-          }
+          // try {
+          //   const { invoke } = await import('@tauri-apps/api/core');
+          //   await invoke('send_chat_message', {
+          //     message: `__CONTEXT_UPDATE__:${JSON.stringify(contextUpdate)}`,
+          //     // conversationId: conversationId,
+          //     conversationId: newConversationId,
+          //     contextJson: JSON.stringify(contextUpdate)
+          //   });
+          // } catch (error) {
+          //   console.log("Context update failed:", error);
+          // }
                     
           // Display results
           const videoInfo = update.result.video_info;

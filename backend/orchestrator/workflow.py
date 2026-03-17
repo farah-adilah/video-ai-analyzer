@@ -178,22 +178,22 @@ class VideoAnalysisOrchestrator:
         if stored_analysis and not context.get("last_analysis_id"):
             context["last_analysis_id"] = stored_analysis
         
-        if query.startswith("__CONTEXT_UPDATE__:"):
-            try:
-                import json
-                context_str = query.replace("__CONTEXT_UPDATE__:", "")
-                new_context = json.loads(context_str)
+        # if query.startswith("__CONTEXT_UPDATE__:"):
+        #     try:
+        #         import json
+        #         context_str = query.replace("__CONTEXT_UPDATE__:", "")
+        #         new_context = json.loads(context_str)
                 
-                for key, value in new_context.items():
-                    conversation_manager.update_context(key, value)
+        #         for key, value in new_context.items():
+        #             conversation_manager.update_context(key, value)
                 
-                print(f"[Orchestrator] Context updated: {new_context}")
-                return {
-                    "type": "response",
-                    "message": "Context updated"
-                }
-            except Exception as e:
-                print(f"[Orchestrator] Error updating context: {e}")
+        #         print(f"[Orchestrator] Context updated: {new_context}")
+        #         return {
+        #             "type": "response",
+        #             "message": "Context updated"
+        #         }
+        #     except Exception as e:
+        #         print(f"[Orchestrator] Error updating context: {e}")
         
         conversation_manager.add_message("user", query)
         
@@ -201,9 +201,7 @@ class VideoAnalysisOrchestrator:
             "query": query,
             "context": context
         })
-        
-        conversation_manager.add_message("user", query)
-        
+                
         intent_result = await self.query_agent.process({
             "query": query,
             "context": context or conversation_manager.current_context

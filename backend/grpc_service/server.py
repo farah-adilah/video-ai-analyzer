@@ -78,10 +78,14 @@ class VideoAnalyzerService(video_analyzer_pb2_grpc.VideoAnalyzerServicer):
 
             print(f"[gRPC Server] Analysis saved with ID: {analysis_id}")
 
+            conversation_manager.current_conversation = analysis_id
+
             conversation_manager.update_context("current_video", request.video_name)
             conversation_manager.update_context("last_analysis_id", analysis_id)
             conversation_manager.update_context("has_analysis", True)
-            print(f"[gRPC Server] Context updated for conversation")
+            conversation_manager.update_context("last_analysis", results)
+            # print(f"[gRPC Server] Context updated for conversation")
+            print(f"[gRPC Server] Conversation {analysis_id} context updated")
 
             yield video_analyzer_pb2.AnalysisUpdate(
                 stage="complete",

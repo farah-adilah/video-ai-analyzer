@@ -1,0 +1,113 @@
+{
+  "id": "2026-03-15T03-42-57",
+  "created_at": "2026-03-15T11:45:54.744170",
+  "messages": [
+    {
+      "role": "user",
+      "content": "__CONTEXT_UPDATE__:{\"current_video\":\"A one minute TEDx Talk for the digital age _ Woody Roseland _ TEDxMileHigh.mp4\",\"last_analysis_id\":\"20260315_114554\",\"has_analysis\":true}",
+      "timestamp": "2026-03-15T11:45:54.751115",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not sure what you'd like me to do. Could you clarify? For example:\n- 'Transcribe the video'\n- 'Create a PowerPoint summary'\n- 'What objects are in the video?'",
+      "timestamp": "2026-03-15T11:45:54.765050",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "gimme the summary",
+      "timestamp": "2026-03-15T11:47:50.287670",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "\ud83d\udcdd Summary:\n\nA video analysis of a TED Talk reveals that the audience is the most important part of the conversation, with the internet serving as the secondary audience. The speaker emphasizes the importance of focusing on what the audience is actually interested in, rather than trying to speak to them with their own unique perspective. The speaker also provides a brief joke to lighten the mood and show that attention spans are gone.",
+      "timestamp": "2026-03-15T11:47:50.345718",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "What are objects found in the video? List them all",
+      "timestamp": "2026-03-15T11:48:12.152120",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the objects I found in the video:",
+      "timestamp": "2026-03-15T11:48:12.184600",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "generate the pdf from this video",
+      "timestamp": "2026-03-15T11:52:10.669156",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I'll generate a PDF report for you.",
+      "timestamp": "2026-03-15T11:52:10.704825",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "__CONTEXT_UPDATE__:{\"current_video\":\"sample-5s.mp4\",\"last_analysis_id\":\"20260315_122038\",\"has_analysis\":true}",
+      "timestamp": "2026-03-15T12:20:40.481615",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not sure what you'd like me to do. Could you clarify? For example:\n- 'Transcribe the video'\n- 'Create a PowerPoint summary'\n- 'What objects are in the video?'",
+      "timestamp": "2026-03-15T12:20:40.519612",
+      "metadata": {}
+    }
+  ],
+  "context": {
+    "last_query_intent": "create_pdf",
+    "last_query_action": "generate_report",
+    "last_analysis": {
+      "video_name": "sample-5s.mp4",
+      "video_path": "C:\\Users\\User\\AppData\\Local\\Temp\\tmp8fo6nfl7.mp4",
+      "timestamp": "2026-03-15T12:18:54.712962",
+      "status": "complete",
+      "video_info": {
+        "fps": 30.0,
+        "frame_count": 171,
+        "width": 1920,
+        "height": 1080,
+        "duration": 5.7
+      },
+      "transcription": {
+        "agent": "TranscriptionAgent",
+        "transcription": "",
+        "language": "en",
+        "error": null
+      },
+      "vision": {
+        "agent": "VisionAgent",
+        "total_frames": 2,
+        "analyzed_frames": 2,
+        "captions": [
+          {
+            "frame": 1,
+            "caption": "a park with a lot of trees and a few cars",
+            "timestamp": 0
+          },
+          {
+            "frame": 2,
+            "caption": "a park with a bench and a tree",
+            "timestamp": 5
+          }
+        ],
+        "summary": "The video contains 2 key scenes. a park with a lot of trees and a few cars a park with a bench and a tree"
+      },
+      "ai_summary": "A brief visual analysis of a park scene featuring a tree, bench, and a few cars at the beginning and a bench, tree, and park with a few cars at the end of the video. The summary highlights the key elements of the scene and provides a quick overview of the video."
+    },
+    "video_path": "C:\\Users\\User\\AppData\\Local\\Temp\\tmp8fo6nfl7.mp4",
+    "video_name": "sample-5s.mp4",
+    "current_video": "sample-5s.mp4",
+    "last_analysis_id": "20260315_122038",
+    "has_analysis": true
+  }
+}

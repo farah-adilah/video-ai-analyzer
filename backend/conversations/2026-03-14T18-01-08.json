@@ -1,0 +1,109 @@
+{
+  "id": "2026-03-14T18-01-08",
+  "created_at": "2026-03-15T02:03:35.676601",
+  "messages": [
+    {
+      "role": "user",
+      "content": "__CONTEXT_UPDATE__:{\"current_video\":\"sample-5s.mp4\",\"last_analysis_id\":\"20260315_020335\",\"has_analysis\":true}",
+      "timestamp": "2026-03-15T02:03:35.687600",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "__CONTEXT_UPDATE__:{\"current_video\":\"sample-5s.mp4\",\"last_analysis_id\":\"20260315_020335\",\"has_analysis\":true}",
+      "timestamp": "2026-03-15T02:03:35.701340",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not sure what you'd like me to do. Could you clarify? For example:\n- 'Transcribe the video'\n- 'Create a PowerPoint summary'\n- 'What objects are in the video?'",
+      "timestamp": "2026-03-15T02:03:35.717358",
+      "metadata": {}
+    }
+  ],
+  "context": {
+    "last_analysis": {
+      "video_name": "A one minute TEDx Talk for the digital age _ Woody Roseland _ TEDxMileHigh.mp4",
+      "video_path": "C:\\Users\\User\\AppData\\Local\\Temp\\tmpflqok_it.mp4",
+      "timestamp": "2026-03-15T02:04:06.980286",
+      "status": "complete",
+      "video_info": {
+        "fps": 23.976023976023978,
+        "frame_count": 1938,
+        "width": 854,
+        "height": 480,
+        "duration": 80.83075
+      },
+      "transcription": {
+        "agent": "TranscriptionAgent",
+        "transcription": " I don't care what you think of my talk. I don't. I care what the internet thinks of my talk. Because they're the ones who get it seen and get it shared. And I think that's where most people get it wrong. They're talking to you. Instead of talking to you, random person scrolling Facebook, thanks for the click. You see, back in 2009, we all had these weird little things called attention spans. Yeah, they're gone. They're gone. We killed them. They're dead. I'm trying to think of the last time I watched an 18-minute TED talk. It's been years, literally years. So if you're given a TED talk, keep it quick. I'm doing mine in under a minute. I'm at 44 seconds right now. That means we've got time for one final joke. Why are balloons so expensive? Inflation.",
+        "language": "en",
+        "error": null
+      },
+      "vision": {
+        "agent": "VisionAgent",
+        "total_frames": 17,
+        "analyzed_frames": 10,
+        "captions": [
+          {
+            "frame": 1,
+            "caption": "a black background with a white and red flower",
+            "timestamp": 0
+          },
+          {
+            "frame": 2,
+            "caption": "the logo for ted miller",
+            "timestamp": 5
+          },
+          {
+            "frame": 3,
+            "caption": "a crowd of people sitting in a theater",
+            "timestamp": 10
+          },
+          {
+            "frame": 4,
+            "caption": "a man standing on a stage with his hands out",
+            "timestamp": 15
+          },
+          {
+            "frame": 5,
+            "caption": "a man in a suit and tie standing on a stage",
+            "timestamp": 20
+          },
+          {
+            "frame": 6,
+            "caption": "a man in a suit and tie standing on a stage",
+            "timestamp": 25
+          },
+          {
+            "frame": 7,
+            "caption": "a man in a suit and tie standing on a stage",
+            "timestamp": 30
+          },
+          {
+            "frame": 8,
+            "caption": "a man in a suit and tie standing on a stage",
+            "timestamp": 35
+          },
+          {
+            "frame": 9,
+            "caption": "a man in a suit and tie is standing on a stage",
+            "timestamp": 40
+          },
+          {
+            "frame": 10,
+            "caption": "a man in a suit and tie is standing on a stage",
+            "timestamp": 45
+          }
+        ],
+        "summary": "The video contains 10 key scenes. a black background with a white and red flower the logo for ted miller a crowd of people sitting in a theater"
+      },
+      "ai_summary": "Based on the video analysis data, the summary is: \"If you're given a TED talk, keep it short and focused on the message. Inflation is the reason for balloons' high price.\""
+    },
+    "video_path": "C:\\Users\\User\\AppData\\Local\\Temp\\tmpflqok_it.mp4",
+    "video_name": "A one minute TEDx Talk for the digital age _ Woody Roseland _ TEDxMileHigh.mp4",
+    "current_video": "A one minute TEDx Talk for the digital age _ Woody Roseland _ TEDxMileHigh.mp4",
+    "last_analysis_id": "20260315_020532",
+    "has_analysis": true
+  }
+}
